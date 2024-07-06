@@ -1,0 +1,13 @@
+[
+    {
+        "UpdateStageName": "Archipelago Client Download",
+        "UpdateSourcePlatform": "Linux",
+        "UpdateSource": "GithubRelease",
+        "UpdateSourceData": "Archipelago_*_linux-x86_64.tar.gz",
+        "UpdateSourceArgs": "ArchipelagoMW/Archipelago",
+        "UnzipUpdateSource": false,
+        "OverwriteExistingFiles": false,
+        "DeleteAfterExtract": true,
+        "OneShot": false
+    }
+]
