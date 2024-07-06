@@ -1,11 +1,11 @@
-Meta.DisplayName=Factorio
-Meta.Description=Factorio Dedicated Server
+Meta.DisplayName=Archipelago Factorio
+Meta.Description=Archipelago Factorio Dedicated Server
 Meta.OS=Windows, Linux
 Meta.AarchSupport=Emulated
 Meta.Arch=x86_64
-Meta.Author=Greelan
-Meta.URL=https://factorio.com/
-Meta.DisplayImageSource=steam:427520
+Meta.Author=BroOtti
+Meta.URL=https://archipelago.gg/games/Factorio/info/en
+Meta.DisplayImageSource=https://archipelago.gg/static/static/branding/header-logo.svg
 Meta.EndpointURIFormat=
 Meta.ConfigManifest=factorioconfig.json
 Meta.MetaConfigManifest=factoriometaconfig.json
