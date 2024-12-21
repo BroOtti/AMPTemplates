@@ -1,0 +1,24 @@
+[
+    {
+        "UpdateStageName": "Archipelago Download",
+        "UpdateSourcePlatform": "Linux",
+        "UpdateSource": "Executable",
+        "UpdateSourceData": "/bin/bash",
+        "UpdateSourceArgs": "-c \"curl -Ls https://api.github.com/repos/ArchipelagoMW/Archipelago/releases/latest | jq '[.assets[] | select (.name | test(\\\"Archipelago_.*_linux-x86_64.tar.gz\\\"))] | sort_by(.updated_at)[-1].browser_download_url' | xargs wget -qO- {} | tar -xovzf -\"",
+        "UnzipUpdateSource": false,
+        "OverwriteExistingFiles": false,
+        "DeleteAfterExtract": true,
+        "OneShot": false
+    },
+    {
+        "UpdateStageName": "Factorio Download",
+        "UpdateSourcePlatform": "Linux",
+        "UpdateSource": "FetchURL",
+        "UpdateSourceData": "https://factorio.com/get-download/stable/headless/linux64",
+        "UpdateSourceTarget": "Archipelago",
+        "UnzipUpdateSource": true,
+        "OverwriteExistingFiles": true,
+        "DeleteAfterExtract": true,
+        "OneShot": false
+    }
+]
