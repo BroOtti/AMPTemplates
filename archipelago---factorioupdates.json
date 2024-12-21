@@ -15,6 +15,7 @@
         "UpdateSourcePlatform": "Linux",
         "UpdateSource": "FetchURL",
         "UpdateSourceData": "https://factorio.com/get-download/stable/headless/linux64",
+		"UpdateSourceArgs": "factorio.tar.xz",
         "UpdateSourceTarget": "{{$FullBaseDir}}/Archipelago",
         "UnzipUpdateSource": true,
         "OverwriteExistingFiles": true,
