@@ -4,7 +4,7 @@
         "UpdateSourcePlatform": "Linux",
         "UpdateSource": "Executable",
         "UpdateSourceData": "/bin/bash",
-        "UpdateSourceArgs": "-c \"cd {{$FullBaseDir}} && curl -Ls https://api.github.com/repos/ArchipelagoMW/Archipelago/releases/latest | jq '[.assets[] | select (.name | test(\\\"Archipelago_.*_linux-x86_64.tar.gz\\\"))] | sort_by(.updated_at)[-1].browser_download_url' | xargs wget -qO- {} | tar -xovzf -\"",
+        "UpdateSourceArgs": "-c \"cd {{$FullBaseDir}} && curl -Ls https://api.github.com/repos/ArchipelagoMW/Archipelago/releases/latest | jq '[.assets[] | select (.name | test(\\\"Archipelago_.*_linux-x86_64.tar.gz\\\"))] | sort_by(.updated_at)[-1].browser_download_url' | xargs wget -qO- {} | tar -xovzf - && echo Archipelago Download successful\"",
         "UnzipUpdateSource": false,
         "OverwriteExistingFiles": false,
         "DeleteAfterExtract": true,
