@@ -31,6 +31,12 @@
         "SkipOnFailure": false
     },
     {
+        "UpdateStageName": "Create Mods Directory",
+        "UpdateSourcePlatform": "All",
+        "UpdateSource": "CreateDirectory",
+        "UpdateSourceArgs": "{{$FullBaseDir}}Archipelago/factorio/mods"
+    },
+    {
         "UpdateStageName": "Server-Settings File Copy",
         "UpdateSourcePlatform": "All",
         "UpdateSource": "CopyFilePath",
