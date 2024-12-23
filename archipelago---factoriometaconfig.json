@@ -1,24 +1,24 @@
 [
     {
-        "ConfigFile": "data/server-settings.json",
+        "ConfigFile": "Archipelago/factorio/data/server-settings.json",
         "AutoMap": true,
         "Importable": true,
         "ConfigType": "json"
     },
     {
-        "ConfigFile": "data/map-gen-settings.json",
+        "ConfigFile": "Archipelago/factorio/data/map-gen-settings.json",
         "AutoMap": true,
         "Importable": true,
         "ConfigType": "json"
     },
     {
-        "ConfigFile": "data/map-settings.json",
+        "ConfigFile": "Archipelago/factorio/data/map-settings.json",
         "AutoMap": true,
         "Importable": true,
         "ConfigType": "json"
     },
     {
-        "ConfigFile": "config-path.cfg",
+        "ConfigFile": "Archipelago/factorio/config-path.cfg",
         "AutoMap": true,
         "ConfigType": "kvp"
     }
