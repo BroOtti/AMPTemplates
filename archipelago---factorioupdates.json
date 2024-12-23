@@ -83,5 +83,14 @@
         "UpdateSourceData": "[]",
         "UpdateSourceArgs": "{{$FullBaseDir}}Archipelago/factorio/data/server-banlist.json",
         "OverwriteExistingFiles": false
+    },
+    {
+        "UpdateStageName": "Config generation on first-time start",
+        "UpdateSourcePlatform": "All",
+        "UpdateSource": "StartApplication",
+        "UnzipUpdateSource": false,
+        "OverwriteExistingFiles": false,
+        "DeleteAfterExtract": true,
+        "OneShot": true
     }
 ]
